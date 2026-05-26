@@ -10,12 +10,12 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 class Binance:
     
-    API_KEY_LIVE = "1wbE7UZUIMAXJttM7WngfiktToMcfJBXmjX7wDke2viF0Ukg5y4ijdqk7FUAS3m5"
-    API_SECRET_LIVE = "m96UUg4g9LLKXgyCAUqwbLHUQ6kjYPPC7NqQVMDHUT8oaHLNIhzYhyMU2QcZqXSt"
+    API_KEY_LIVE = ""
+    API_SECRET_LIVE = ""
     
     
-    API_KEY_TESTNET = "XiqvkLbkXrSt0y7h1AlYT0U3csQSU5o6CPgi4j9NLr94cRRuWSMlB7oF520ZHAxI"
-    API_SECRET_TESTNET = "oI3FLyQwTrTiPkjA8tAwzbH2FXN9E5pBvmpS1ah1vsakUwRfFaRiJTu8x4rmQrSi"
+    API_KEY_TESTNET = ""
+    API_SECRET_TESTNET = ""
     
     SPOT_WS_1 = "wss://stream.binance.com:9443/stream?streams="
     SPOT_WS_2 = "wss://stream.binance.com:443/stream?streams="
